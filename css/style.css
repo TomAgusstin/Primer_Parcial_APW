@@ -1,0 +1,83 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bg-celeste{
+    background-color: #35A7FF;
+}
+
+.btn-blanco{
+    background-color: #FFFFFF;
+}
+
+.row{
+    --bs-gutter-x: 0px;
+}
+
+.bg-gray{
+    background-color: aliceblue;
+    border-radius: 10px;
+    min-height: 50vh;
+    margin: 5%;
+    padding: 2%;
+}
+
+.soleado{   background-color: #35A7FF;
+        background-image: url('../img/soleado-sunny.gif');
+        background-repeat: no-repeat;
+        background-size: 50%;
+        background-position: center bottom;
+        height: calc(90vh);
+}
+
+.lluvioso{   background-color: #cbcbcb;
+    background-image: url('../img/rain.gif');
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center bottom;
+    height: calc(90vh);
+}
+
+.nublado{   background-color: #cbcbcb;
+    background-image: url('../img/nublado.gif');
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center bottom;
+    height: calc(90vh);
+}
+
+.nieve{   background-color: #cbcbcb;
+    background-image: url('../img/nieve.gif');
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center bottom;
+    height: calc(90vh);
+}
+
+
+
+@media (min-width: 600px) {
+
+.clima{
+    max-height: 30vh;
+}
+
+
+.bg-gray{
+    background-color: aliceblue;
+    border-radius: 10px;
+    margin: 5%;
+    padding: 2%;
+    width: 50%;
+}
+
+}
+
+@media (min-width: 900px) {
+    main{
+        max-width: 1200px;
+    }
+}
